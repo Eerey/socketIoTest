@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  form
+      input(type="text",placeholder="Nickname", name="nickname")
+      input(type="submit")
+    ul#results
+  script(src="javascripts/shout_trans.js")
+
